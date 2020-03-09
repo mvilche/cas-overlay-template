@@ -122,9 +122,63 @@
                     <type>war</type>
                     <scope>runtime</scope>
                 </dependency>
-                <!--
-                ...Additional dependencies may be placed here...
-                -->
+
+<dependency>
+    <groupId>org.apereo.cas</groupId>
+    <artifactId>cas-server-support-pm-jdbc</artifactId>
+    <version>${cas.version}</version>
+</dependency>
+<dependency>
+     <groupId>org.apereo.cas</groupId>
+     <artifactId>cas-server-core-webflow</artifactId>
+     <version>${cas.version}</version>
+</dependency>
+<dependency>
+   <groupId>org.apereo.cas</groupId>
+   <artifactId>cas-server-support-jdbc-drivers</artifactId>
+   <version>${cas.version}</version>
+</dependency>
+<dependency>
+   <groupId>org.apereo.cas</groupId>
+   <artifactId>cas-server-support-jdbc-authentication</artifactId>
+   <version>${cas.version}</version>
+</dependency>
+<dependency>
+   <groupId>org.apereo.cas</groupId>
+   <artifactId>cas-server-support-jdbc</artifactId>
+   <version>${cas.version}</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apereo.cas</groupId>
+    <artifactId>cas-server-support-audit-jdbc</artifactId>
+    <version>${cas.version}</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apereo.cas</groupId>
+    <artifactId>cas-server-support-rest</artifactId>
+    <version>${cas.version}</version>
+</dependency>
+
+<dependency>
+  <groupId>org.apereo.cas</groupId>
+  <artifactId>cas-server-support-oauth-webflow</artifactId>
+  <version>${cas.version}</version>
+</dependency>
+
+<dependency>
+  <groupId>org.apereo.cas</groupId>
+  <artifactId>cas-server-support-oidc</artifactId>
+  <version>${cas.version}</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apereo.cas</groupId>
+    <artifactId>cas-server-support-redis-ticket-registry</artifactId>
+    <version>${cas.version}</version>
+</dependency>
+
             </dependencies>
         </profile>
 
