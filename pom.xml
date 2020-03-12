@@ -151,40 +151,9 @@
 
 <dependency>
     <groupId>org.apereo.cas</groupId>
-    <artifactId>cas-server-support-audit-jdbc</artifactId>
-    <version>${cas.version}</version>
-</dependency>
-
-<dependency>
-    <groupId>org.apereo.cas</groupId>
-    <artifactId>cas-server-support-rest</artifactId>
-    <version>${cas.version}</version>
-</dependency>
-
-<dependency>
-  <groupId>org.apereo.cas</groupId>
-  <artifactId>cas-server-support-oauth-webflow</artifactId>
-  <version>${cas.version}</version>
-</dependency>
-
-<dependency>
-  <groupId>org.apereo.cas</groupId>
-  <artifactId>cas-server-support-oidc</artifactId>
-  <version>${cas.version}</version>
-</dependency>
-
-<dependency>
-    <groupId>org.apereo.cas</groupId>
     <artifactId>cas-server-support-redis-ticket-registry</artifactId>
     <version>${cas.version}</version>
 </dependency>
-
-<dependency>
-     <groupId>org.apereo.cas</groupId>
-     <artifactId>cas-server-support-ldap</artifactId>
-     <version>${cas.version}</version>
-</dependency>                     
-
             </dependencies>
         </profile>
 
